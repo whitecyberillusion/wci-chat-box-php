@@ -1,1 +1,23 @@
-
+#button {
+  float: right;
+  height: 38px;
+  margin-top:-38px;
+  z-index: 999999;
+  width: 10%;
+}
+#message {
+  width: 92%;
+}
+.message {
+  max-width: 100%;
+  width: 100%;
+  margin-right:15%;
+  max-height: 500px;
+  height: 500px;
+  border-radius: 5px;
+  position: relative;
+  overflow-y: auto;
+}
+.msg-input {
+  width: 90%;
+}
